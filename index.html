@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eq1 | Tutorial</title>
+    <script src="media/js/jq.js"></script>
+    <script src="media/js/m.js"></script>
+    <script src="media/js/ui.js"></script>
+    <link rel="stylesheet" href="media/css/ui.css" />
+    <link rel="icon" href="media/img/icono.png" />
+
+    <script>
+      $(document).ready(function () {
+        $("#a1").click(function (e) {
+          e.preventDefault();
+          location.reload(); // Recargar la página
+        });
+        $("#a2").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "temario.html");
+        });
+        $("#a3").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "objetivo.html");
+        });
+        $("#a4").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "introduccion.html");
+        });
+        $("#a5").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "desarrollo.html");
+        });
+        $("#a6").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "ejemplos.html");
+        });
+        $("#a7").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "videos.html");
+        });
+        $("#a8").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "memorama.html");
+        });
+        $("#a9").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "sopa.html");
+        });
+        $("#a10").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "cuestionario.html");
+        });
+        $("#a11").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "conclusion.html");
+        });
+        $("#a12").click((e) => {
+          e.preventDefault();
+          $("#contents").attr("src", "biblio.html");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav id="nav-left">
+        <ul id="index">
+          <h2>Índice</h2>
+          <li><a id="a1" href="#">Inicio</a></li>
+          <li><a id="a2" href="#">Temario</a></li>
+          <li><a id="a3" href="#">Objetivo</a></li>
+          <li><a id="a4" href="#">Introducción</a></li>
+          <li><a id="a5" href="#">Desarrollo</a></li>
+          <li><a id="a6" href="#">Ejemplos</a></li>
+          <li><a id="a7" href="#">Video</a></li>
+          <li><a id="a8" href="#">Memorama</a></li>
+          <li><a id="a9" href="#">Sopa de Letras</a></li>
+          <li><a id="a10" href="#">Cuestionario</a></li>
+          <li><a id="a11" href="#">Conclusión</a></li>
+          <li><a id="a12" href="#">Bibliografía</a></li>
+        </ul>
+      </nav>
+
+      <nav id="nav-right">
+        <ul id="files">
+          <h2>Archivos</h2>
+          <li>
+            <a href="media/pdf/DocumentaciónTutorial.pdf" target="_blank"
+              >Documentación Completa</a
+            >
+          </li>
+          <li>
+            <a href="media/pdf/Cuestionario.pdf" target="_blank"
+              >Cuestionario (RESPUESTAS)</a
+            >
+          </li>
+          <li>
+            <a href="media/pdf/Escaleta del Video.pdf" target="_blank"
+              >Escaleta del Video</a
+            >
+          </li>
+        </ul>
+        <ul id="contact">
+          <h2>Contacto</h2>
+          <li>Benítez Guerrero Alexis</li>
+          <li>benitez.agro@gmail.com</li>
+          <li>Cabrera Marcos Sergio Ivan</li>
+          <li>sergio80y9@gmail.com</li>
+          <li>Moreno Muñiz Luis Gerardo</li>
+          <li>gerardomm1303@gmail.com</li>
+        </ul>
+      </nav>
+
+      <div id="theme" class="theme1">
+        <iframe id="contents" src="portada.html"></iframe>
+      </div>
+
+      <footer id="footer">
+        <img id="logounam" src="media/img/logo_unam.png" />
+        <img id="logofi" src="media/img/logo_fi.png" />
+      </footer>
+    </div>
+  </body>
+</html>
