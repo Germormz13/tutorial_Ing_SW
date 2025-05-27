@@ -1,0 +1,63 @@
+body, #portada, ul, li, h1, h2, h3, p, span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('../img/bg_unam.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInBackground 2s ease-in;
+}
+
+@keyframes fadeInBackground {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#portada {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px 50px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 550px;
+    opacity: 0;
+    animation: fadeInBox 2s ease-in 0.5s forwards;
+}
+
+@keyframes fadeInBox {
+    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; transform: translateY(20px); }
+}
+
+#logos {
+    display: flex;
+    justify-content: space-between; /* Enviar a extremos */
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 35px; /* Espaciado lateral interno */
+}
+
+#logos img {
+    height: 80px;
+    transition: transform 0.3s;
+}
+
+#logos img:hover {
+    transform: scale(1.1);
+}
+
+#listaPortada {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.8;
+}
