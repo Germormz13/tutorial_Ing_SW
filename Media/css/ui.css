@@ -106,3 +106,33 @@ iframe#contents {
 #nav-left ul li, #nav-right ul li {
     transition: background-color 0.3s;
 }
+
+.menu-link {
+  display: block;
+  padding: 10px 15px;
+  background-color: #3a3a3a;      /* fondo gris oscuro */
+  color: #ffffff;                 /* texto blanco */
+  text-decoration: none;         /* sin subrayado */
+  border-radius: 6px;            /* bordes redondeados */
+  margin: 6px 0;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Al pasar el mouse */
+.menu-link:hover {
+  background-color: #141414;     /* cambia color de fondo */
+  transform: translateX(5px);    /* pequeño movimiento */
+  color: #ffffff;                /* asegura que siga siendo blanco */
+}
+
+/* Cuando ya se visitó el enlace */
+.menu-link:visited {
+  color: #ffffff;                /* evita el morado predeterminado */
+}
+
+/* También evita el subrayado morado en :active */
+.menu-link:active {
+  text-decoration: none;
+  color: #ffffff;
+}
