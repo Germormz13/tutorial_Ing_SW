@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: none;
+    background-image: url('../img/bg_unam.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenido {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+}
+
+.contenido h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.contenido h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.contenido p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* evita que se desborde */
+    height: auto;
+    align-items: center;
+}
+
+ol {
+      counter-reset: item;
+      list-style-type: none;
+      padding-left: 1em;
+    }
+
+li {
+      display: block;
+      counter-increment: item;
+    }
+li::before {
+      content: counters(item, ".") ". ";
+      font-weight: bold;
+    }
+
+
+.btn-link {
+    display: block;                /* Hace que acepte márgenes automáticos */
+    width: fit-content;            /* Solo ocupa el espacio del contenido */
+    margin: 0 auto;                /* Centra horizontalmente */
+    
+    padding: 8px 16px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn-link:hover {
+    background-color: #005f99;
+    transform: translateY(-2px);
+}
+
+.btn-link:active {
+    background-color: #004b80;
+    transform: translateY(0);
+}
