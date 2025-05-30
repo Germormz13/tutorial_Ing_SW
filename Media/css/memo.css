@@ -1,0 +1,11 @@
+body {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    background: #01182a;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.46);
+}
