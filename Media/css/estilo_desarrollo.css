@@ -81,6 +81,13 @@ li::before {
       font-weight: bold;
     }
 
+ul li {
+  list-style: disc; /* o circle/square */
+}
+
+ul li::before {
+  content: none; /* evita que la numeración se aplique */
+}
 
 .btn-link {
     display: block;                /* Hace que acepte márgenes automáticos */
