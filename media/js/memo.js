@@ -7,16 +7,16 @@ class Memorama {
         this.card1 = null;
         this.card2 = null;
 
-        this.availableImages = ['Media/img/memo/memo_4.png',
-                                'Media/img/memo/memo_3.png', 
-                                'Media/img/memo/memo_2.png', 
-                                'Media/img/memo/memo_1.png',
-                                'Media/img/memo/memo_5.png',
-                                'Media/img/memo/memo_6.png',
-                                'Media/img/memo/memo_7.png',
-                                'Media/img/memo/memo_8.png',
-                                'Media/img/memo/memo_9.png',
-                                'Media/img/memo/memo_10.png'];
+        this.availableImages = ['media/img/memo/memo_4.png',
+                                'media/img/memo/memo_3.png', 
+                                'media/img/memo/memo_2.png', 
+                                'media/img/memo/memo_1.png',
+                                'media/img/memo/memo_5.png',
+                                'media/img/memo/memo_6.png',
+                                'media/img/memo/memo_7.png',
+                                'media/img/memo/memo_8.png',
+                                'media/img/memo/memo_9.png',
+                                'media/img/memo/memo_10.png'];
         this.orderForThisRound = [];
         this.cards = Array.from( document.querySelectorAll(".board-game figure") );
 
