@@ -7,10 +7,16 @@ class Memorama {
         this.card1 = null;
         this.card2 = null;
 
-        this.availableImages = ['https://static.jojowiki.com/images/a/ab/latest/20220624045145/U-001_blue.jpg',
-                                'https://static.jojowiki.com/images/5/58/latest/20220625082535/U-003_purple.png', 
-                                'https://static.jojowiki.com/images/0/06/latest/20210114000345/U-001_red.jpg', 
-                                'https://static.jojowiki.com/images/0/0a/latest/20220625082737/U-002_purple.jpg'];
+        this.availableImages = ['Media/img/memo/memo_4.png',
+                                'Media/img/memo/memo_3.png', 
+                                'Media/img/memo/memo_2.png', 
+                                'Media/img/memo/memo_1.png',
+                                'Media/img/memo/memo_5.png',
+                                'Media/img/memo/memo_6.png',
+                                'Media/img/memo/memo_7.png',
+                                'Media/img/memo/memo_8.png',
+                                'Media/img/memo/memo_9.png',
+                                'Media/img/memo/memo_10.png'];
         this.orderForThisRound = [];
         this.cards = Array.from( document.querySelectorAll(".board-game figure") );
 
@@ -105,7 +111,7 @@ class Memorama {
             if (this.card1 == this.card2) {
 
                 this.canPlay = false;
-                setTimeout(this.checkIfWon.bind(this), 300)
+                setTimeout(this.checkIfWon.bind(this), 600)
                 
             }
             else {
@@ -142,7 +148,6 @@ class Memorama {
         this.canPlay = true;
 
         if (this.maxPairNumber == this.foundPairs) {
-
             alert(`Ganaste! Pasos: ${this.clicks/2}`);
             this.setNewGame();
             
