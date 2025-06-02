@@ -91,7 +91,6 @@ class WordSearchGame {
 
         if (this.words.includes(selectedWord) && !this.wordsFound.includes(selectedWord)) {
             this.wordsFound.push(selectedWord);
-            alert(`¡Has encontrado la palabra "${selectedWord}"!`);
             this.currentSelection.forEach(idx => {
                 document.querySelector(`[data-index="${idx}"]`).classList.add('found');
             });
