@@ -1,0 +1,94 @@
+body {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    background: #01182a;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.46);
+}
+
+.btn-link {
+    display: block;                /* Hace que acepte márgenes automáticos */
+    width: fit-content;            /* Solo ocupa el espacio del contenido */
+    margin: 0 auto;                /* Centra horizontalmente */
+    
+    padding: 8px 16px;
+    background-color: #434343;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.btn-link:hover {
+    background-color: #005f99;
+    transform: translateY(-2px);
+}
+
+.btn-link:active {
+    background-color: #004b80;
+    transform: translateY(0);
+}
+
+#wordSearchContainer {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    gap: 5px;
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+#wordSearchContainer div {
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#wordSearchContainer div.selected {
+    background-color: #2466bd;
+}
+.selected {
+    background-color: #90ee90; 
+}
+
+.found {
+    background-color: #ffcccb; 
+}
+.wordsList {
+    margin: 20px auto;
+    max-width: 90vw;
+    padding: 10px;
+    background-color: #434343;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wordsList div {
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: #000;
+    border-radius: 16px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.wordsList div.found::after {
+    color: green;
+}
+
+.wordsList div.found {
+    background-color: #238c1f; 
+    text-decoration: none;
+}
