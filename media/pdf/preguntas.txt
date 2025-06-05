@@ -1,0 +1,300 @@
+
+1. ¿Cómo define el IEEE el software?
+   A) Conjunto de programas que especifican las instrucciones que debe seguir el sistema.
+   B) Documentación y procedimientos necesarios para el desarrollo de hardware.
+   \*C) Conjunto de programas, procedimientos, reglas, documentación y datos asociados de un sistema de cómputo.
+   D) Conjunto de aplicaciones orientadas al usuario.
+
+2. ¿Cuál es una característica principal del software de sistemas?
+   A) Diseñado para calcular simulaciones avanzadas.
+   B) Proporciona funcionalidad específica y general para consumidores.
+   \*C) Optimiza el acceso y la eficiencia de otros programas y usuarios.
+   D) Especifica reglas de negocio en aplicaciones empresariales.
+
+3. ¿Cuál es una ventaja del software en la vida cotidiana?
+   A) Dificultad para medir el progreso.
+   \*B) Expansión de tecnologías de comunicación.
+   C) Costos de desarrollo elevados.
+   D) Complejidad en las estimaciones de tiempo.
+
+4. ¿Qué tipo de software se utiliza para cálculos complejos y simulaciones en áreas científicas?
+   A) Software de sistemas.
+   B) Aplicaciones web.
+   \*C) Software científico y de ingeniería.
+   D) Software de línea de productos.
+
+5. ¿Cuál es una de las principales desventajas del software?
+   A) Imposibilidad de realizar pruebas.
+   B) Reemplazo constante de componentes defectuosos.
+   \*C) Altos costos de mantenimiento.
+   D) Corta vida útil comparado con el hardware.
+
+6. ¿Qué mide la mantenibilidad como factor de calidad del software?
+   \*A) Facilidad para modificar el software.
+   B) Ausencia de fallos durante el uso.
+   C) Capacidad para adaptarse a plataformas distintas.
+   D) Facilidad para corregir problemas.
+
+7. ¿Cómo se define un producto de software genérico?
+   A) Software solicitado por un cliente específico.
+   B) Software desarrollado a medida.
+   \*C) Sistema desarrollado y comercializado en el mercado abierto.
+   D) Sistema personalizado para empresas.
+
+8. ¿Qué implica la corrección como factor de calidad en el software?
+   A) Medir eficiencia de recursos.
+   \*B) Cumplir con sus especificaciones.
+   C) Esfuerzo para aprender a usarlo.
+   D) Capacidad de interoperabilidad.
+
+9. ¿Cuál es un ejemplo de software incrustado?
+   A) Sistema operativo general.
+   B) Programa de diseño gráfico.
+   \*C) Software de control en un electrodoméstico.
+   D) Software ERP para empresas.
+
+10. ¿Qué mide la facilidad de prueba en el software?
+    A) Esfuerzo para modificarlo.
+    \*B) Facilidad para verificar su corrección o fiabilidad.
+    C) Posibilidad de adaptarlo.
+    D) Facilidad para documentar cambios.
+
+11. ¿Qué caracteriza al software de aplicación?
+    A) Orientado a desarrolladores.
+    B) Optimiza eficiencia de recursos.
+    \*C) Atiende necesidades específicas de individuos u organizaciones.
+    D) Utilizado en simulaciones científicas.
+
+12. ¿Cuál es un desafío común en el desarrollo de software?
+    A) Facilidad para medir su calidad.
+    B) Interacción constante con hardware.
+    C) Disponibilidad de componentes estandarizados.
+    \*D) Capacidad de probar todas las funciones.
+
+13. ¿Cuál es un ejemplo de una aplicación web?
+    A) Sistema operativo.
+    B) Programa de edición de imágenes.
+    \*C) Aplicación bancaria en línea.
+    D) Programa de simulación meteorológica.
+
+14. ¿Qué es la flexibilidad en términos de calidad de software?
+    A) Capacidad de adaptarse a otras plataformas.
+    \*B) Facilidad para modificar en mantenimiento adaptativo.
+    C) Capacidad para tareas en tiempo real.
+    D) Facilidad de reutilización.
+
+15. ¿Qué función tiene el software de línea de productos?
+    A) Controla dispositivos empotrados.
+    \*B) Proporciona funcionalidad generalizada.
+    C) Ejecuta simulaciones.
+    D) Base para desarrolladores.
+
+16. ¿Qué es la ingeniería de software?
+    A) Solo programación.
+    B) Desarrollo sin documentación.
+    \*C) Diseño, desarrollo y entrega según requisitos.
+    D) Mantenimiento de sistemas operativos.
+
+17. ¿Quién supervisa el proyecto de ingeniería de software?
+    A) Cliente.
+    B) Programador.
+    \*C) Project Manager.
+    D) End User.
+
+18. ¿Qué busca lograr la ingeniería de software según Bauer?
+    A) Software caro.
+    \*B) Software eficiente y económico.
+    C) Nuevo sistema operativo.
+    D) Pocas actualizaciones.
+
+19. ¿Qué función desempeña el "System Architect"?
+    A) Escribe código.
+    B) Realiza pruebas.
+    \*C) Diseña el sistema y define interacción de componentes.
+    D) Entrena usuarios.
+
+20. ¿Qué significa "Modularidad"?
+    \*A) Dividir en componentes pequeños y manejables.
+    B) Integrar todo en un módulo.
+    C) Evitar funciones.
+    D) Aumentar tamaño del software.
+
+21. ¿Cuál NO es parte del proceso de desarrollo de software?
+    A) Análisis de requisitos.
+    B) Implementación.
+    \*C) Distribución de hardware.
+    D) Evolución.
+
+22. ¿Qué describe el principio de "Anticipación al cambio"?
+    A) Mejorar eficiencia.
+    \*B) Planificar para cambios.
+    C) Mantener sin cambios.
+    D) Evitar actualizaciones.
+
+23. ¿Cuál es la función principal de un "Tester"?
+    A) Escribir código.
+    B) Diseñar arquitectura.
+    \*C) Probar según requisitos.
+    D) Administrar equipo.
+
+24. ¿Qué etapa se realiza al inicio de un proyecto de software?
+    A) Evolución.
+    B) Codificación.
+    \*C) Definición inicial.
+    D) Implementación.
+
+25. ¿Cuál es el objetivo de la "Gestión de configuración del software"?
+    A) Codificar.
+    \*B) Controlar cambios.
+    C) Implementar sin errores.
+    D) Probar software.
+
+26. ¿Qué actividad sombrilla permite monitorear el progreso del proyecto?
+    \*A) Seguimiento y control del proyecto.
+    B) Aseguramiento de calidad.
+    C) Gestión de reutilización.
+    D) Modelado.
+
+27. ¿Qué implica el principio de "Generalidad"?
+    A) Soluciones específicas.
+    \*B) Soluciones reutilizables.
+    C) Eliminar redundancias.
+    D) Incrementar código.
+
+28. ¿Cuál es el propósito del "End User"?
+    A) Gestionar el proyecto.
+    B) Realizar pruebas.
+    \*C) Consumir el producto final.
+    D) Diseñar el sistema.
+
+29. ¿Cuál es el enfoque de la "Resolución de problemas"?
+    A) Diseñar sin requerimientos.
+    \*B) Resolver un problema específico del cliente.
+    C) Eliminar cambios.
+    D) Minimizar costos.
+
+30. ¿Quién define la ingeniería de software como estudio de principios y metodologías?
+    A) Bauer.
+    B) Boehm.
+    C) Zelkovitz.
+    \*D) Pressman.
+
+31. ¿Diferencia principal entre ingeniería de software y otras ingenierías?
+    A) Usa menos recursos.
+    \*B) Se basa en conocimiento como materia prima.
+    C) No requiere diseño.
+    D) Es tangible.
+
+32. ¿Qué característica tiene el software ya desarrollado?
+    A) Se desgasta físicamente.
+    B) Difícil de replicar.
+    \*C) Puede replicarse exacto y barato.
+    D) Necesita manufactura adicional.
+
+33. ¿A qué está propenso el software aunque no se desgaste físicamente?
+    A) Deterioro físico.
+    \*B) Obsolescencia tecnológica.
+    C) Vida útil infinita.
+    D) Mejora continua sin fallos.
+
+34. ¿Qué teoría explica la evolución del software?
+    A) Física de Newton.
+    B) Electrónica.
+    \*C) Leyes de Evolución del Software de Lehman.
+    D) Computación de Turing.
+
+35. ¿Cómo puede deteriorarse el software?
+    A) Desgaste por uso.
+    \*B) Fallos acumulados y falta de actualizaciones.
+    C) Resistencia limitada.
+    D) Pérdida de recursos tangibles.
+
+36. ¿Qué área se enfoca en teorías y algoritmos?
+    A) Ingeniería de sistemas.
+    B) Ingeniería eléctrica.
+    \*C) Ciencias de la computación.
+    D) Matemáticas aplicadas.
+
+37. ¿Qué organización promueve estándares en ingeniería de software?
+    A) WHO.
+    \*B) IEEE.
+    C) NASA.
+    D) UNICEF.
+
+38. ¿Desafío distintivo del ciclo de vida del software?
+    A) Duración indefinida.
+    B) Difícil de replicar.
+    \*C) Rápido ciclo de vida.
+    D) Estabilidad.
+
+39. ¿Qué se ha adaptado de otras ingenierías?
+    A) Manufactura en línea.
+    B) Materiales tangibles.
+    \*C) Gestión de proyectos y modelado estructurado.
+    D) Construcción de puentes.
+
+40. ¿En qué se diferencia la ingeniería de software de la de sistemas?
+    \*A) Ingeniería de sistemas abarca hardware y software.
+    B) Ingeniería de sistemas es solo teoría.
+    C) Software no trabaja con sistemas complejos.
+    D) Solo se enfoca en hardware.
+
+41. ¿Qué aspecto ético implica proteger los datos del usuario?
+    A) Transparencia.
+    B) Competencia Profesional.
+    \*C) Privacidad.
+    D) Sostenibilidad.
+
+42. ¿Cuál es un principio clave en métodos ágiles?
+    A) Desarrollo en fases finales.
+    \*B) Entrega incremental.
+    C) Análisis previo detallado.
+    D) Revisión anual.
+
+43. ¿Qué tipo de requerimiento es la “velocidad de respuesta”?
+    A) Funcional.
+    B) Estético.
+    \*C) No funcional.
+    D) Operativo.
+
+44. ¿Qué patrón organiza el sistema en capas independientes?
+    A) Cliente-Servidor.
+    B) Microservicios.
+    C) Modelo-Vista-Controlador.
+    \*D) Arquitectura en capas.
+
+45. ¿Qué atributo evalúa que funcione sin errores?
+    A) Usabilidad.
+    \*B) Fiabilidad.
+    C) Funcionalidad.
+    D) Eficiencia.
+
+46. ¿Qué prueba evalúa la usabilidad desde la perspectiva del usuario?
+    A) Integración.
+    B) Sistema.
+    C) Unitaria.
+    \*D) Usuario.
+
+47. ¿Propósito de la administración del cambio?
+    A) Crear nuevos requerimientos.
+    \*B) Documentar y controlar cambios.
+    C) Reescribir código base.
+    D) Reducir tiempo de desarrollo.
+
+48. ¿Qué herramienta rastrea versiones anteriores del código?
+    A) Gestión de requerimientos.
+    \*B) Control de versiones.
+    C) Pruebas de calidad.
+    D) Administración de proyectos.
+
+49. ¿Qué método ágil organiza el trabajo en “sprints”?
+    \*A) Scrum.
+    B) XP.
+    C) Modelo en cascada.
+    D) Lean.
+
+50. ¿Qué atributo de calidad se enfoca en el uso óptimo de recursos?
+    A) Mantenibilidad.
+    B) Fiabilidad.
+    \*C) Eficiencia.
+    D) Funcionalidad.

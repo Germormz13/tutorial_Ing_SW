@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Cuestionario</title>
-    <link rel="stylesheet" href="media/css/estilo_contenido.css">
+    <link rel="stylesheet" href="media/css/estilo_desarrollo.css">
+    <link rel="stylesheet" href="media/css/cuestionario.css">
 </head>
 <body>
-    <section class="contenido">
-        <h1>Cuestionario</h1>
-        <p>Contenido correspondiente a la sección de Cuestionario.</p>
-    </section>
+    <div id="root"></div>
+    <!-- Cargar React -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Cargar Framer Motion -->
+    <script crossorigin src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.umd.min.js"></script>
+    <!-- Cargar Babel -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <!-- Cargar nuestro código -->
+    <script type="text/babel" src="media/js/cuestionario.js"></script>
 </body>
 </html>
