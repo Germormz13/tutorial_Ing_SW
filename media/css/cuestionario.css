@@ -1,0 +1,59 @@
+.quiz-container {
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 32px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: rgb(225, 225, 225);
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    background-color: rgba(72, 48, 167, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.option:hover {
+    background-color: rgba(95, 72, 187, 0.4);
+}
+
+.option.selected {
+    background-color: rgba(95, 72, 187, 0.8);
+}
+
+.score {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(72, 48, 167);
+    margin: 20px 0;
+}
+
+.submit-btn {
+    background-color: rgb(72, 48, 167);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    font-size: 18px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(95, 72, 187);
+}
