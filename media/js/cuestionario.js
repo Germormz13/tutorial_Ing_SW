@@ -1,5 +1,5 @@
 const { useState, useEffect } = React;
-const { motion } = framerMotion;
+const { motion, AnimatePresence } = window.FramerMotion;
 
 const preguntas = [
     {
@@ -244,7 +244,7 @@ function Cuestionario() {
     );
 }
 
-// Mover la inicialización de React al final del archivo
+// Inicialización de React
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 root.render(
