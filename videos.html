@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <title>Video</title>
     <link rel="stylesheet" href="media/css/estilo_contenido.css">
+    <style>
+        .video-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            max-width: 720px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+    </style>
 </head>
 <body>
     <section class="contenido">
         <h1>Video</h1>
         <p>Contenido correspondiente al video.</p>
+
+        <div class="video-container">
+            <video controls>
+                <source src="media/img/ejemplo.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
     </section>
 </body>
 </html>
